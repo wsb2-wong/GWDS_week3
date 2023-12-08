@@ -1,0 +1,45 @@
+body{
+    background-color: lightpink;
+}
+
+h1{
+    font-size: 70px;
+    color: lemonchiffon;
+}
+
+.cake-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 25px;
+}
+
+.section-one{
+    border: 1px solid rgb(191, 214, 237);
+    background-color: lightslategrey;
+}
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.caption {
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+}
+
+
+.cake-item{
+    width:275px;
+    height: 275px;
+    padding: 4px;
+}
+
+.cake-group{
+    width:285px;
+}
