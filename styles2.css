@@ -1,51 +1,36 @@
-/* Un-comment by deleting the star and slash on the beginning and end of every style. Try different styles, look up what you can do and change, or the options VSC gives you*/
-/* ======================================== */
-
-
-/* ====poster section====*/
-
-
-/* below styles all sections */
-
- 
-
 .section-two{
+    margin: 20px;
     background-color: lightseagreen;
-    padding: 6px 2px 2px 8px;
+    padding: 3px 1px 2px 1px;
 }
 
+.dark center{
+    color: dimgrey;
+}
 
-
-cake-poster-item {
+.section-two .container{
     border: 1px solid yellow; 
     display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    width: 40%;   
+    width: 80%;   
     padding: 10px; 
+    margin: 0 auto;
  } 
 
- 
- /* .dark {
-    color: #333333;
-}  */
+.cake-poster-item{
+    width: 250px;
 
- 
-/* .center {
-    text-align: center;
-}  */
+}
 
-
-
-/*====footer styles====*/
-
-
- /* footer {
+footer {
+    background-color:dimgrey;
     
-    background-color: white;
-    
-}  */
+}  
 
- /* .disclaimer {   
+.disclaimer {   
+    color: rgb(255, 255, 255);
     padding: 5px;
     text-align: center;
-}  */
+} 
